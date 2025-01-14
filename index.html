@@ -4,31 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pacotes Nutricionais - Nutri Ana Beatriz</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-image: url('./pexels-enginakyurt-1435904.jpg'); /* Imagem fixa de fundo */
             background-size: cover;
             background-attachment: fixed;
             text-align: center;
-            animation: trocarFundo 15s infinite; /* Troca o fundo a cada 15 segundos */
-        }
-
-        /* Animação para alternar as imagens de fundo */
-        @keyframes trocarFundo {
-            0% {
-                background-image: url('./fruit-8379081_1280.jpg');
-            }
-            33% {
-                background-image: url('./fruits-2198378_1280.png');
-            }
-            66% {
-                background-image: url('./pexels-frans-van-heerden-201846-625422.jpg');
-            }
-            100% {
-                background-image: url('./pexels-nietjuh-2008135.jpg');
-            }
         }
 
         header {
@@ -41,6 +26,25 @@
             width: 100px;
             height: 100px;
             border-radius: 50%;
+        }
+
+        .instagram {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            margin-top: 5px;
+        }
+
+        .instagram i {
+            font-size: 18px;
+            color: #fff;
+        }
+
+        .instagram a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
         }
 
         .pacotes {
@@ -118,7 +122,11 @@
     <header>
         <img src="./FOTO ANA.jpeg" alt="Logo Principal">
         <h1>Pacotes Nutricionais</h1>
-        <h2>@Nutrianabeatriz.s</h2>
+        <h2>Nutri Ana Beatriz</h2>
+        <div class="instagram">
+            <i class="fab fa-instagram"></i>
+            <a href="https://instagram.com/nutrianabeatriz.s" target="_blank">@nutrianabeatriz.s</a>
+        </div>
     </header>
 
     <div class="pacotes">
