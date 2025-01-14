@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacotes Nutricionais - Nutri Ana Beatriz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            background-attachment: fixed;
+            text-align: center;
+            animation: trocarFundo 15s infinite; /* Troca o fundo a cada 15 segundos */
+        }
+
+        /* Animação para alternar as imagens de fundo */
+        @keyframes trocarFundo {
+            0% {
+                background-image: url('./fruit-8379081_1280.jpg');
+            }
+            33% {
+                background-image: url('./fruits-2198378_1280.png');
+            }
+            66% {
+                background-image: url('./pexels-frans-van-heerden-201846-625422.jpg');
+            }
+            100% {
+                background-image: url('./pexels-nietjuh-2008135.jpg');
+            }
+        }
+
+        header {
+            padding: 20px;
+            background-color: rgba(96, 189, 231, 0.9);
+            color: #fff;
+        }
+
+        header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        .pacotes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .pacote {
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .pacote img {
+            width: 80px;
+            margin-bottom: 10px;
+        }
+
+        .pacote h3 {
+            background-color: #60bde7;
+            padding: 10px;
+            border-radius: 8px;
+            color: #fff;
+        }
+
+        .pacote ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        .pacote ul li {
+            margin: 10px 0;
+            position: relative;
+        }
+
+        .pacote ul li::before {
+            content: '•';
+            position: absolute;
+            left: -15px;
+            color: #60bde7;
+            font-weight: bold;
+        }
+
+        .pacote .preco {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .pacote a {
+            background-color: #60bde7;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            display: inline-block;
+        }
+
+        .pacote a:hover {
+            background-color: #4ea1cf;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./FOTO ANA.jpeg" alt="Logo Principal">
+        <h1>Pacotes Nutricionais</h1>
+        <h2>@Nutrianabeatriz.s</h2>
+    </header>
+
+    <div class="pacotes">
+        <!-- Pacote 1 -->
+        <div class="pacote">
+            <img src="./LOGO NUTRI.jpeg" alt="Logo do Plano">
+            <h3>Plano Essencial</h3>
+            <ul>
+                <li>Consulta inicial com avaliação do histórico alimentar e clínico.</li>
+                <li>Elaboração de um plano alimentar personalizado.</li>
+                <li>Material digital com dicas práticas de alimentação saudável.</li>
+                <li>Acompanhamento pelo aplicativo, onde você pode registrar refeições, monitorar metas e manter tudo sob controle!.</li>
+            </ul>
+            <div class="preco">R$ 80,00</div>
+            <a href="https://wa.me/5521994465414?text=Olá,%20tenho%20interesse%20no%20Plano%20Essencial!" target="_blank">Quero Conhecer</a>
+        </div>
+
+        <!-- Pacote 2 -->
+        <div class="pacote">
+            <img src="./LOGO NUTRI.jpeg" alt="Logo do Plano">
+            <h3>Plano Avançado</h3>
+            <ul>
+                <li>Consulta inicial com avaliação nutricional completa.</li>
+                <li>Plano alimentar ajustado às suas necessidades específicas.</li>
+                <li>1 ajuste gratuito no plano em até 30 dias.</li>
+                <li>Acompanhamento pelo aplicativo, onde você pode registrar refeições, monitorar metas e manter tudo sob controle!.</li>
+            </ul>
+            <div class="preco">R$ 100,00</div>
+            <a href="https://wa.me/5521994465414?text=Olá,%20tenho%20interesse%20no%20Plano%20Avançado!" target="_blank">Quero Conhecer</a>
+        </div>
+
+        <!-- Pacote 3 -->
+        <div class="pacote">
+            <img src="./LOGO NUTRI.jpeg" alt="Logo do Plano">
+            <h3>Plano Premium</h3>
+            <ul>
+                <li>Consulta inicial detalhada.</li>
+                <li>Plano alimentar para 30 dias com lista de compras prática.</li>
+                <li>Suporte via WhatsApp por 15 dias para tirar dúvidas.</li>
+                <li>Acompanhamento pelo aplicativo, onde você pode registrar refeições, monitorar metas e manter tudo sob controle!.</li>
+            </ul>
+            <div class="preco">R$ 150,00</div>
+            <a href="https://wa.me/5521994465414?text=Olá,%20tenho%20interesse%20no%20Plano%20Premium!" target="_blank">Quero Conhecer</a>
+        </div>
+    </div>
+</body>
+</html>
