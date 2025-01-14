@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pacotes Nutricionais - Nutri Ana Beatriz</title>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Plano Nutricional - Nutri Ana Beatriz</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -28,31 +27,30 @@
             border-radius: 50%;
         }
 
-        .instagram {
+        .social-links {
             display: flex;
+            justify-content: center;
             align-items: center;
-            justify-content: center;
-            gap: 5px;
-            margin-top: 5px;
-        }
-
-        .instagram i {
-            font-size: 18px;
-            color: #fff;
-        }
-
-        .instagram a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .pacotes {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
             gap: 20px;
-            padding: 40px;
+            margin-top: 10px;
+        }
+
+        .social-links a img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .mensagem {
+            margin: 20px auto;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            max-width: 600px;
+            font-size: 16px;
+            color: #333;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
         .pacote {
@@ -60,6 +58,7 @@
             border: 1px solid #ddd;
             border-radius: 8px;
             padding: 20px;
+            margin: 20px auto;
             width: 300px;
             text-align: center;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -121,56 +120,35 @@
 <body>
     <header>
         <img src="./FOTO ANA.jpeg" alt="Logo Principal">
-        <h1>Pacotes Nutricionais</h1>
+        <h1>Plano Nutricional</h1>
         <h2>Nutri Ana Beatriz</h2>
-        <div class="instagram">
-            <i class="fab fa-instagram"></i>
-            <a href="https://instagram.com/nutrianabeatriz.s" target="_blank">@nutrianabeatriz.s</a>
+        <p style="font-size: 14px; color: #fff; margin-top: 5px;">Estudante de Nutrição comprometida em oferecer suporte acessível e de qualidade.</p>
+        <div class="social-links">
+            <a href="https://instagram.com/nutrianabeatriz.s" target="_blank">
+                <img src="./instagram-1834010_1280.png" alt="Instagram">
+            </a>
+            <a href="https://wa.me/5521994465414" target="_blank">
+                <img src="./whatsapp-1844471_1280.png" alt="WhatsApp">
+            </a>
         </div>
     </header>
 
-    <div class="pacotes">
-        <!-- Pacote 1 -->
-        <div class="pacote">
-            <img src="./LOGO NUTRI.jpeg" alt="Logo do Plano">
-            <h3>Plano Essencial</h3>
-            <ul>
-                <li>Consulta inicial com avaliação do histórico alimentar e clínico.</li>
-                <li>Elaboração de um plano alimentar personalizado.</li>
-                <li>Material digital com dicas práticas de alimentação saudável.</li>
-                <li>Acompanhamento pelo aplicativo, onde você pode registrar refeições, monitorar metas e manter tudo sob controle!.</li>
-            </ul>
-            <div class="preco">R$ 80,00</div>
-            <a href="https://wa.me/5521994465414?text=Olá,%20tenho%20interesse%20no%20Plano%20Essencial!" target="_blank">Quero Conhecer</a>
-        </div>
+    <div class="mensagem">
+        ✨ Este plano foi criado para ser acessível e contribuir para o meu crescimento como futura nutricionista, enquanto ofereço suporte de qualidade para quem deseja melhorar sua saúde e bem-estar. Obrigada por confiar no meu trabalho! ✨
+    </div>
 
-        <!-- Pacote 2 -->
-        <div class="pacote">
-            <img src="./LOGO NUTRI.jpeg" alt="Logo do Plano">
-            <h3>Plano Avançado</h3>
-            <ul>
-                <li>Consulta inicial com avaliação nutricional completa.</li>
-                <li>Plano alimentar ajustado às suas necessidades específicas.</li>
-                <li>1 ajuste gratuito no plano em até 30 dias.</li>
-                <li>Acompanhamento pelo aplicativo, onde você pode registrar refeições, monitorar metas e manter tudo sob controle!.</li>
-            </ul>
-            <div class="preco">R$ 100,00</div>
-            <a href="https://wa.me/5521994465414?text=Olá,%20tenho%20interesse%20no%20Plano%20Avançado!" target="_blank">Quero Conhecer</a>
-        </div>
-
-        <!-- Pacote 3 -->
-        <div class="pacote">
-            <img src="./LOGO NUTRI.jpeg" alt="Logo do Plano">
-            <h3>Plano Premium</h3>
-            <ul>
-                <li>Consulta inicial detalhada.</li>
-                <li>Plano alimentar para 30 dias com lista de compras prática.</li>
-                <li>Suporte via WhatsApp por 15 dias para tirar dúvidas.</li>
-                <li>Acompanhamento pelo aplicativo, onde você pode registrar refeições, monitorar metas e manter tudo sob controle!.</li>
-            </ul>
-            <div class="preco">R$ 150,00</div>
-            <a href="https://wa.me/5521994465414?text=Olá,%20tenho%20interesse%20no%20Plano%20Premium!" target="_blank">Quero Conhecer</a>
-        </div>
+    <div class="pacote">
+        <img src="./LOGO NUTRI.jpeg" alt="Logo do Plano">
+        <h3>Plano Único – Apoio Nutricional</h3>
+        <ul>
+            <li>Consulta inicial com avaliação do histórico alimentar e clínico.</li>
+            <li>Elaboração de um plano alimentar personalizado.</li>
+            <li>Material digital com dicas práticas de alimentação saudável.</li>
+            <li>Acompanhamento pelo aplicativo, onde você pode registrar refeições, monitorar metas e manter tudo sob controle.</li>
+        </ul>
+        <div class="preco">R$ 80,00</div>
+        <a href="https://wa.me/5521994465414?text=Olá,%20tenho%20interesse%20no%20Plano%20Único!" target="_blank">Quero Conhecer</a>
     </div>
 </body>
 </html>
+
